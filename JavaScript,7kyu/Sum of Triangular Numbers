@@ -1,0 +1,10 @@
+function sumTriangularNumbers(n)
+{
+  let summa = 0;
+  let i;
+  for(i=1;i<=n;i++)
+    {
+      summa += i*((i+1)/2);
+    }
+  return summa;
+}
