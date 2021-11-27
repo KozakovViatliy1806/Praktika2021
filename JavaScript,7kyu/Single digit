@@ -1,0 +1,6 @@
+function singleDigit(n) 
+{
+  if(n>=0 && n<10)
+    return n;
+  return singleDigit(n.toString(2).replace(/0/g, '').length);
+}
