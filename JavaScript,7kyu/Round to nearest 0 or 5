@@ -1,0 +1,4 @@
+function roundToFive(numbers)
+{
+  return numbers.map(n => Math.round(n/5)*5);
+}
