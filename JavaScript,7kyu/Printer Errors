@@ -1,0 +1,6 @@
+function printerError(s) 
+{
+   const init_len = s.length;
+    const err_len = s.replace(/[a-m]/g, "").length;
+    return `${err_len}/${init_len}`;
+}
