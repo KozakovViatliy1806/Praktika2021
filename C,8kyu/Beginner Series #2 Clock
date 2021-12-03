@@ -1,0 +1,9 @@
+int past(int h, int m, int s) 
+{
+int s1, s2, milsec, sec;
+s1 = h*3600;
+s2 = m*60;
+sec = s1+s2+s;
+milsec = sec*1000;
+return milsec;  
+}
