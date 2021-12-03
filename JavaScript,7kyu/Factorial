@@ -1,0 +1,9 @@
+function factorial(n)
+{
+ let resultat = 1;
+  for (let i = 2; i <= n; i++) 
+  {
+    resultat *= i;
+  }
+  return resultat;
+}
