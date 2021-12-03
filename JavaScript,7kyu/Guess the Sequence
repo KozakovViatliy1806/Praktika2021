@@ -1,0 +1,11 @@
+function sequence(x) 
+{
+  var temp = [];
+  var i
+      for(i =1;i<=x;i++)
+      {
+        temp.push(i);
+      }
+      result = temp.sort();
+      return result;
+    }
