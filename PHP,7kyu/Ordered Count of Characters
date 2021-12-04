@@ -1,0 +1,13 @@
+function orderedCount($text) 
+{
+  if (empty($text)) 
+  {
+     return [];
+  }
+ $resultat = [];
+  foreach (array_count_values(str_split($text)) as $index => $value) 
+  {
+    array_push($resultat, [$index, $value]);
+  }
+  return $resultat;
+}
