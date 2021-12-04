@@ -1,0 +1,7 @@
+<?php
+function past($h, $m, $s) 
+{
+ $milseconds = $h * 60 *60+$m*60+$s;
+  return $milseconds *1000;
+   
+}
